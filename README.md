@@ -16,7 +16,8 @@ In order to convert from `sensor_msgs::PointCloud2` to `pcl::PointCloud`, we nee
 `pcl_ros_conversion_benchmark.cpp` measures following conversions and output the time as the average of 100 times testing:
 * `pcl::PointCloud` -> `pcl::PCLPointCloud2`
 * `pcl::PCLPointCloud2` -> `sensor_msgs::PointCloud2`
-* `sensor_msgs::PointCloud2` -> `pcl::PointCloud`
+* `sensor_msgs::PointCloud2` -> `pcl::PCLPointCloud2`
+* `pcl::PCLPointCloud2` -> `pcl::PointCloud`
 
 ![conversion time](output.png)
 
