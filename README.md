@@ -21,5 +21,5 @@ In order to convert from `sensor_msgs::PointCloud2` to `pcl::PointCloud`, we nee
 ![conversion time](output.png)
 
 # conclusion
-If we have a pointcloud with X, Y, Z and RGB field, it takes much time to convert from `sensor_msgs::PointCloud2` to `pcl::PointCloud`.
+If we have a pointcloud with X, Y, Z and RGB field, it takes much time to convert from `pcl::PCLPointCloud2` to `pcl::PointCloud`. It means that converting from `sensor_msgs::PCLPointCloud2` to `pcl::PointCloud` also takes a long time.
 
