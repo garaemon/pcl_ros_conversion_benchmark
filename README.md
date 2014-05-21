@@ -11,7 +11,7 @@ which is compatible with `sensor_msgs::PointCloud2`.
 
 In order to convert from `sensor_msgs::PointCloud2` to `pcl::PointCloud`, we need to across `pcl::PCLPointCloud2`
 
-# experiment
+# experiments
 `pcl_ros_conversion_benchmark.cpp` tests two kinds of pointcloud which are X-Y-Z and X-Y-Z-RGB.
 `pcl_ros_conversion_benchmark.cpp` measures following conversions and output the time as the average of 100 times testing:
 * `pcl::PointCloud` -> `pcl::PCLPointCloud2`
@@ -21,6 +21,6 @@ In order to convert from `sensor_msgs::PointCloud2` to `pcl::PointCloud`, we nee
 
 ![conversion time](output.png)
 
-# conclusion
+# conclusions
 If we have a pointcloud with X, Y, Z and RGB field, it takes much time to convert from `pcl::PCLPointCloud2` to `pcl::PointCloud`. It means that converting from `sensor_msgs::PCLPointCloud2` to `pcl::PointCloud` also takes a long time.
 
