@@ -33,5 +33,5 @@ it costs around 0.02 sec to convert the pointclouds from ROS to PCL and from PCL
 If your pointcloud processing takes 0.03sec (= 30fps), summation of the processing and conversion will be
 0.05sec (= 20fps).
 
-OTH, there is a huge *jump* around 700k points in several experiments. We need to dig this issue more to address
+There is a huge *jump* around 700k points in several experiments. We need to dig this issue more to address
 the reason but cache contamination is a potential reason of this problem.
