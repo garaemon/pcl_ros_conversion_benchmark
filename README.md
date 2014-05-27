@@ -15,6 +15,9 @@ For example, though `pcl::PCLPointCloud2` has rgb field, we can convert it to `p
 with x, y and z fields.
 
 # machine spec
+
+cpu MHz changes according to CPU load.
+
 ```
 $ cat /proc/meminfo
 MemTotal:       65943128 kB
